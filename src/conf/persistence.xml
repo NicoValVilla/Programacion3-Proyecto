@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="ProyectoPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.MODELO.Permisos</class>
+    <class>com.MODELO.Desarrolladoras</class>
+    <class>com.MODELO.Logs</class>
+    <class>com.MODELO.Categorias</class>
+    <class>com.MODELO.Plataformas</class>
+    <class>com.MODELO.Roles</class>
+    <class>com.MODELO.MetodosPagos</class>
+    <class>com.MODELO.Juegos</class>
+    <class>com.MODELO.Preordenes</class>
+    <class>com.MODELO.JuegosCategorias</class>
+    <class>com.MODELO.Compras</class>
+    <class>com.MODELO.Usuarios</class>
+    <class>com.MODELO.JuegosCompras</class>
+    <class>com.proyecto.modelo.beans.Permisos</class>
+    <class>com.proyecto.modelo.beans.Usuarios</class>
+    <class>com.proyecto.modelo.beans.Roles</class>
+    <class>com.proyecto.modelo.beans.Preordenes</class>
+    <class>com.proyecto.modelo.beans.Plataformas</class>
+    <class>com.proyecto.modelo.beans.Desarrolladoras</class>
+    <class>com.proyecto.modelo.beans.Juegos</class>
+    <class>com.proyecto.modelo.beans.Compras</class>
+    <class>com.proyecto.modelo.beans.Compras_1</class>
+    <class>com.proyecto.modelo.beans.JuegosCategorias</class>
+    <class>com.proyecto.modelo.beans.Categorias</class>
+    <class>com.proyecto.modelo.beans.MetodosPagos</class>
+    <class>com.proyecto.modelo.beans.Logs</class>
+    <class>com.proyecto.modelo.beans.PermisosCrud</class>
+    <class>com.proyecto.modelo.beans.JuegosCompras</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/gamelab?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value=""/>
+    </properties>
+  </persistence-unit>
+</persistence>
