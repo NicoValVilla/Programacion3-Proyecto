@@ -72,12 +72,6 @@ cd gamelab
 
 ## Funcionalidades
 
-### Carrito de Compras
-
-- **Añadir productos:** Desde la página de productos.
-- **Visualizar carrito:** Ver la lista de productos.
-
-
 ### Datos Estadísticos
 
 - **Panel de administración:** Estadísticas de ventas.
