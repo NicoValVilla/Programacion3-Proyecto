@@ -26,3 +26,83 @@ Somos una empresa de distribución de videojuegos que está ansiosa por llevar s
 - **Seguridad y Confianza**: Nuestra plataforma ofrece un proceso de pago seguro que garantiza la confianza de los clientes. Esto no solo protege los datos sensibles de los usuarios, sino que también mejora la reputación de la empresa y fomenta la lealtad del cliente a largo plazo.
 
 GameLab no solo es una solución tecnológica innovadora, sino también una oportunidad estratégica para las empresas que buscan crecer y prosperar en la industria de los videojuegos en línea.
+
+## Tecnologías Utilizadas
+
+- **Lenguaje de Programación**: Java
+- **Frameworks y Librerías**:
+  - Servlets
+  - JSP (JavaServer Pages)
+  - JSTL (JavaServer Pages Standard Tag Library)
+- **Base de Datos**: MySQL
+- **Frontend**:
+  - HTML5
+  - CSS
+  - JavaScript
+- **IDE**: NetBeans
+- **Servidor**: TomEE 7 o superior
+
+## Requisitos
+
+- **Java**: JDK 8 o superior
+- **IDE**: NetBeans 8.2 o superior
+- **Servidor**: TomEE 7 o superior
+- 
+- **Base de Datos**: MySQL 5.7 o superior
+
+## Instalación
+
+### Clonar el Repositorio
+
+git clone https://github.com/NicoValVilla/Programacion3-Proyecto.git
+cd gamelab
+
+## Configurar el Proyecto en NetBeans
+
+1. **Abrir NetBeans:** Seleccionar `File` > `Open Project`.
+2. **Navegar a la carpeta:** Ir a la carpeta clonada `gamelab` y abrir el proyecto.
+3. **Configurar TomEE:**
+   - Ir a `Services` > `Servers`.
+   - Añadir el servidor TomEE y configurar las rutas.
+
+## Desplegar el Proyecto
+
+1. **Limpiar y construir:** `Run` > `Clean and Build Project`.
+2. **Desplegar en el servidor:** `Run` > `Run Project`.
+
+## Funcionalidades
+
+### Carrito de Compras
+
+- **Añadir productos:** Desde la página de productos.
+- **Visualizar carrito:** Ver la lista de productos.
+
+
+### Datos Estadísticos
+
+- **Panel de administración:** Estadísticas de ventas.
+- **Gráficos:** Productos más vendidos.
+- **Reportes:** Ingresos por periodo.
+
+### Sesiones de Usuario
+
+- **Registro y autenticación:** Para usuarios nuevos y existentes.
+- **Perfiles:** Ver y editar información y pedidos.
+- **Sesión de administrador:** Gestionar productos, categorías y usuarios.
+
+## Actualización de Bibliotecas
+
+- **Gestión de productos:** Añadir, editar o eliminar desde el panel.
+- **Gestión de categorías:** Actualizar categorias.
+- **Gestion de desarrolladoras:** Añadir y actualizar desarrolladoras.
+## Posibles Mejoras
+
+- **Sistema de recomendación:** Sugerir productos con machine learning.
+- **Optimización:** Mejorar código y consultas a la base de datos.
+- **Interfaz de usuario:** Refinar el diseño.
+- **Pasarelas de pago:** Añadir más métodos (PayPal, Stripe, etc.).
+- **Internacionalización:** Soporte para varios idiomas y monedas.
+
+## Contacto
+
+- **Email:** gamelab_support@gmail.com
