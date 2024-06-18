@@ -1,0 +1,132 @@
+*,*::before,*::after{
+    box-sizing: content-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #2f2f2f;
+}
+
+.container-information{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container-imagen{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url('../Imagenes/FONDOLOGIN.png');
+    background-size: cover;
+}
+
+.container-header{
+    width: 100%;
+    height: 90px;
+}
+
+.img-logo img{
+    width: 50%;
+    position: relative;
+    top: 20px;
+    left: 20px;
+
+}
+
+.contenedor-login{
+    width: 70%;
+    position: absolute;
+    top: 70px;
+    left: 120px;
+}
+
+.contenedor-registro{
+    width: 35%;
+    position: relative;
+    top: 80px;
+    left: 120px;
+    display: none;
+}
+
+
+/* label focus color */
+.input-field input:focus + label {
+    color: red !important;
+}
+/* label underline focus color */
+.row .input-field input:focus {
+    border-bottom: 1px solid red !important;
+    box-shadow: 0 1px 0 0 red !important
+}
+
+.container-texto{
+    position: absolute;
+    top: 280px;
+    left: 40px;
+}
+
+.container-parrafo{
+    font-size:1.3em;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mostrar{
+    display: block;
+    animation-name: zoomIn;
+    animation-duration:1.5s;
+}
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(0.3, 0.3, 0.3);
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+.esconder{
+    display: none;
+    animation-name: zoomOut;
+    animation-duration: 1.5s;
+}
+
+@keyframes zoomOut {
+    from {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+        -webkit-transform: scale3d(0.3, 0.3, 0.3);
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+
+    to {
+        opacity: 0;
+    }
+}

@@ -1,0 +1,62 @@
+.contenedor-graficas{
+    width: calc(100% - 250px);
+    position: absolute;
+    top: 90px;
+    left: 235px;
+}
+
+.nombre-chart{
+    padding-top: 15px!important;
+}
+
+.numero-chart{
+    margin-top: 0!important;
+}
+
+.text-bonito{
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.card-image{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-right: 40px;
+}
+
+
+.fa-newspaper{
+    font-size: 5em;
+}
+
+.numero-stadi{
+    font-size: 2em;
+}
+
+.numero-porcen{
+    display: inline-block;
+    position:absolute;
+    left:195px;
+    bottom: 68px;
+}
+
+.numero-porcen-m{
+    display: inline-block;
+    position:absolute;
+    left:182px;
+    bottom: 68px;
+}
+
+
+.arrow-up{
+    position:absolute;
+    left:210px;
+    bottom: 68px;
+}
+
+.arrow-up-p{
+    position:absolute;
+    left:225px;
+    bottom: 68px;
+}

@@ -1,0 +1,35 @@
+.contenedor{
+    width: 83%;
+    position: absolute;
+    left: 233px;
+}
+
+.card-content{
+    overflow: hidden;
+}
+
+.video{
+    width: 100%;    
+}
+
+
+.primercard{
+    background-image: url("../Imagenes/devil.jpg");
+    background-size: cover;
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color: red;
+    z-index: 5;
+}
+
+.segundacard{
+    background-image: url("../Imagenes/division.jpg");
+    background-size: cover;
+}
+
+.tercercard{
+       background-image: url("../Imagenes/metro.jpg");
+    background-size: cover;
+}
